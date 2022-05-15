@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<head>
+	<title> Cadastro | ETEC Amim Jundi </title>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel = "icon" href="icone.png">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.png" height="70px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Feed</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ensino
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Ensino Médio</a></li>
+            <li><a class="dropdown-item" href="#">Cursos Técnicos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Cursos Livres</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Entrar</a>
+        </li>
+      </ul>
+
+
+      <form class="d-flex" novalidate>
+        <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+        <button class="btn btn-outline-danger" type="submit">Pesquisar</button>
+    </div>
+  </div>
+</nav>
+	<div class="container">
+		<div class="border2">
+			<h1><center><font color="3b4b5a"> Formulário de Cadastro<br>
+			Vestibulinho</font><font color="b10000"> ETEC Amim Jundi </font> <font color="3b4b5a"> - 2022 </h1></font></center>
+			<br><br>
+			<h10>Dados Pessoais</h10></h1>
+			<div class="spa"></div>
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Nome Completo</label>
+
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Endereço de E-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="dropdown_container">
+<select class="form-select" aria-label="Default select example">
+  <option selected>@gmail.com</option>
+  <option value="1">@hotmail.com</option>
+  <option value="2">@outlook.com</option>
+</select>
+</div>
+</div>
+<br>
+
+<label for="basic-url" class="form-label">CPF:</label>
+<div class="input-group mb-3">
+  <input type="text" class="form-control mb54" id="cpf" nome="cpf" oninput="mascara(this)" placeholder="Digite seu CPF">
+</div>
+<h50>Somente números </h50>
+<br>
+
+	Número de Telefone:
+<div class="input-group mb-3">
+  <span class="input-group-text mi4">
+  <input type="text" name="ddd" id="ddd" placeholder="(__)" width="150px" maxlength="2"></span>
+
+  <input type="tel" class="form-control" id="tel" name="tel" aria-label="Amount" oninput="mascaratel(this)">
+
+</div>
+ <h50>DDD + número</h50>
+<br>
+
+<label for="basic-url" class="form-label">Sexo:</label>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Masculino
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+  <label class="form-check-label" id="flexRadioDefault2lab" for="flexRadioDefault2">
+    Feminino
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+  <label class="form-check-label" id="flexRadioDefault3lab" for="flexRadioDefault3">
+    Prefiro não informar
+  </label>
+</div>
+<label for="basic-url" class="form-label">Data de Nascimento:</label>
+<div class="input-group">
+  <input type="date" class="form-control">
+</div>
+<br>
+<label for="basic-url" class="form-label">Escolha o Curso:</label>
+<select class="form-select" aria-label="Default select example">
+  <option selected>-</option>
+  <option value="1">Ensino Médio com Habilitação Profissional de Técnico em Administração</option>
+  <option value="2">Ensino Médio com Habilitação Profissional de Técnico em Desenvolvimento de Sistemas</option>
+   <option value="4">Ensino Médio com Habilitação Profissional de Técnico em Química</option>
+  <option value="3">Ensino Médio com Habilitação Profissional de Técnico em Recursos Humanos</option>
+  <option value="5">Ensino Médio com Itinerário Formativo - Linguagens, Ciências Humanas e Sociais</option>
+  <option value="6">Técnico em Açucar e Álcool (Noturno)</option>
+  <option value="6">Técnico em Administração (Noturno)</option>
+  <option value="6">Técnico em Contabilidade (Noturno)</option>
+  <option value="6">Técnico em Desenvolvimento de Sistemas (Noturno)</option>
+  <option value="7">Técnico em Enfermagem (Vespertino)</option>
+  <option value="8">Técnico em Enfermagem (Noturno)</option>
+  <option value="8">Técnico em Farmácia (Noturno)</option>
+  <option value="6">Técnico em Informática (Noturno)</option>
+  <option value="6">Técnico em Informática Para Internet (Noturno)</option>
+  <option value="6">Técnico em Logística (Noturno)</option>
+  <option value="6">Técnico em Contabilidade (Noturno)</option>
+  <option value="6">Técnico em Marketing (Noturno)</option>
+  <option value="6">Técnico em Meio Ambiente (Noturno)</option>
+  <option value="6">Técnico em Programação de Jogos Digitais (Noturno)</option>
+  <option value="6">Técnico em Química (Noturno)</option>
+  <option value="6">Técnico em Recursos Humanos (Noturno)</option>
+  <option value="6">Técnico em Redes de Computadores (Noturno)</option>
+  <option value="6">Técnico em Segurança do Trabalho (Noturno)</option>
+
+</select>
+<br>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Li e concordo com os <a href=#>termos do edital</a>, bem como com o tratamento dos meus dados para fins de prospecção dos serviços educacionais prestados pela ETEC Amim Jundi e estou de acordo com a <a href=#>política de privacidade</a>.
+  </label>
+</div>
+<br><br>
+<div class="col-12">
+ <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cadastrar</button>
+
+ <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Cadastro realizado com sucesso!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Parabéns! seu cadastro para o Vestibulinho da ETEC Amim Jundi do ano de 2022 foi cadastrado.<br> Consulte todas as informações e editais na área do candidato.
+
+      </div>
+      <div class="modal-footer">
+      	<a href="index.html">
+        <button type="button" class="btn btn-outline-danger">Fechar</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</form>
+
+  <div class="container-fluid flex-grow-1 flex-shrink-0">
+    <div class="px-lg-5">
+      <div class="row py-5">
+        <div class="col-lg-12 mx-auto text-white text-center">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+
+
+  <!-- Footer -->
+  <footer class="bg-white">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+			<h6 class="text-uppercase font-weight-bold mb-4">ETEC Amim Jundi</h6>
+			R. Japão, 724 - Centro - Osvaldo Cruz/SP<br>
+			Telefone: (18) 3528-3982 / (18) 3528-4760<br>
+			E-mail: e027.secretaria@etec.sp.gov.br
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Ensino</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Vestibulinho</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Cursos</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Eventos</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Calendário Escolar</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Direção</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Equipe de Trabalho</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Associação de Pais e Mestres</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Legislação</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Fale com a Direção</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+          <p class="text-muted mb-4">Assine o nosso Newsletter e fique por dentro de todas as novidades da instituição!</p>
+          <div class="p-1 rounded border">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Endereço de E-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"><font color="black">Assinar</i></button></font>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyrights -->
+    <div class="bg-light py-4">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">© 2022 Erik Rossi. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End -->
+
+<script type="text/javascript">
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+
+
+function mascara(i){
+   
+   var v = i.value;
+   
+   if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+      i.value = v.substring(0, v.length-1);
+      return;
+   }
+   
+   i.setAttribute("maxlength", "14");
+   if (v.length == 3 || v.length == 7) i.value += ".";
+   if (v.length == 11) i.value += "-";
+
+}
+
+
+function mascaratel(i){
+   
+   var v = i.value;
+   
+   if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+      i.value = v.substring(0, v.length-1);
+      return;
+   }
+   
+   i.setAttribute("maxlength", "10");
+   if (v.length == 5 || v.length == 11) i.value += "-";
+   if (v.length == 10) i.value += "";
+}
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</HTML>

@@ -1,0 +1,107 @@
+.container {
+
+		padding: 120px;
+		
+
+	}
+
+	.border2 {
+
+		border: 1px solid lightgray;
+		padding: 30px;
+
+	}
+	.email5 {
+
+		width: 500px;
+
+	}
+
+
+    div.dropdown_container {
+    width:180px;
+    display: flex;
+}
+
+input.mb54 {
+
+	width: 50px !important;
+
+}
+
+h10 {
+
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.spa {
+
+	height: 10px;
+
+}
+
+.mi4 {
+
+	width: 50px;
+
+}
+
+#ddd {
+
+	width: 35px;
+	border: none;
+	background-color: #e9ecef;
+}
+
+#ddd:focus {
+
+  color: none;
+  border: none;
+  outline: none;
+
+}
+
+h50 {
+
+	color: gray;
+	font-size: 12px;
+	margin-top: -15px;
+	position: absolute !important;
+
+
+}
+
+#flexRadioDefault2{
+
+	position: absolute;
+	margin-left:  100px;
+	margin-top: -22px;
+
+
+}
+
+#flexRadioDefault2lab {
+
+	position: absolute;
+	margin-top: -26px;
+	margin-left:  123px;
+}
+
+#flexRadioDefault3{
+
+	position: absolute;
+	margin-left:  220px;
+	margin-top: -49px;
+
+
+}
+
+#flexRadioDefault3lab {
+
+	position: absolute;
+	margin-top: -53px;
+	margin-left:  244px;
+}
